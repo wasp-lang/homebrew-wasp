@@ -8,5 +8,6 @@ class Wasp < Formula
 
   def install
     bin.install "wasp-bin"
+    mv bin/"wasp-bin", bin/"wasp"
   end
 end
