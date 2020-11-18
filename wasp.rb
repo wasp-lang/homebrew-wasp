@@ -7,6 +7,6 @@ class Wasp < Formula
   license "MIT License"
 
   def install
-    bin.install "wasp"
+    bin.install "wasp-bin"
   end
 end
